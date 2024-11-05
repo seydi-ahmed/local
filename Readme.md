@@ -11,7 +11,7 @@ Ce projet consiste à obtenir un accès root sur la machine virtuelle 01-Local1.
 ### I) Importer la VM dans VirtualBox
 - Ouvrez VirtualBox.
 - Dans File > Import Appliance, sélectionnez le fichier ```01-Local1.ova```.
-- Importez la VM et démarrez-la.
+- Importez la VM et démarrez-la: appuyez sur Next -> Import.
 
 ### II) Obtenir un Accès de Base
 #### Identifier le point d'entrée:
