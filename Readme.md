@@ -58,3 +58,5 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 1. Une fois root, accédez au fichier flag en utilisant :
 - ```cat /root/flag.txt```
 2. Notez le contenu du drapeau pour valider l’accès root.
+
+******************************************************************************************************
