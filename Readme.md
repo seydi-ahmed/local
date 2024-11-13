@@ -63,4 +63,11 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 # Virtualisation
 ## Activer la virtualisation dans les machines
 ## Acheter un ordinateur performant:
-Hp victus --> 13e Génération, Corei9, 1Tb SSD, 
+1. Processeur (CPU)
+Intel Core i7 (10e génération)
+10 cœurs (16 threads)
+Fréquence de base de 3.5 GHz 
+2. Mémoire RAM
+32 Go de RAM minimum 
+3. Stockage (SSD)
+SSD NVMe de 1 To minimum
