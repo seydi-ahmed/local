@@ -62,3 +62,5 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 *********************************************************************************************
 # Virtualisation
 ## Activer la virtualisation dans les machines
+## Acheter un ordinateur performant:
+Hp victus --> 13e Génération
