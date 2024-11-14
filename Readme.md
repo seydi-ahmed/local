@@ -1,4 +1,4 @@
-# Privilège Escalation - Projet "Local"
+# Privilège Escalation - Projet "Local" de Zone01 Dakar
 
 ## Objectif
 Ce projet consiste à obtenir un accès root sur la machine virtuelle 01-Local1.ova fournie. La méthodologie inclut des techniques de privilège escalation tout en respectant les restrictions imposées (pas de modification dans GRUB ni dans la VM).
