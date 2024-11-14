@@ -60,14 +60,12 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 2. Notez le contenu du drapeau pour valider l’accès root.
 
 *********************************************************************************************
-# Virtualisation
-## Activer la virtualisation dans les machines
-## Acheter un ordinateur performant:
-1. Processeur (CPU)
-Intel Core i7 (10e génération)
-10 cœurs (16 threads)
-Fréquence de base de 3.5 GHz 
-2. Mémoire RAM
-32 Go de RAM minimum 
-3. Stockage (SSD)
-SSD NVMe de 1 To minimum
+
+# Mot de passe:
+1) Redémarrer la machine
+2) Appuyer rapidement sur Shift (ou Esc)
+3) Dans le menu Grub allez dans "Mode de récupération"
+4) puis dans "Drop to root shell prompt"
+5) mettez "mount -o remount,rw /"
+6) passwd MotDePasse
+7) "reboot"
