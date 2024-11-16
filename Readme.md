@@ -61,7 +61,7 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 
 *********************************************************************************************
 
-# Mot de passe:
+# Change a password with ubuntu:
 1) Redémarrer la machine
 2) Appuyer rapidement sur Shift (ou Esc)
 3) Dans le menu Grub allez dans "Mode de récupération"
