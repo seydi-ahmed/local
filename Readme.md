@@ -74,3 +74,6 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 
 CPU --> 2
 RAM --> 4096 MB
+
+SYSTEM --> RAM
+SYSTEM --> CPU
