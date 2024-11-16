@@ -69,3 +69,8 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 5) mettez "mount -o remount,rw /"
 6) passwd MotDePasse
 7) "reboot"
+
+*********************************************************************************************
+
+CPU --> 2
+RAM --> 4096 MB
