@@ -23,3 +23,6 @@ au lieu de Bridge
 
 # assure toi que la machine virtuelle
 soit activée
+
+# mettez ceci
+nmap -sn 192.168.1.0/24
