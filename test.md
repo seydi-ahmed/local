@@ -26,3 +26,6 @@ soit activée
 
 # mettez ceci
 nmap -sn 192.168.1.0/24
+
+# sélectionnez l'adresse de la VM et mettez ceci
+nmap -A ```adresse```
