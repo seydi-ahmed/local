@@ -20,3 +20,6 @@ au lieu de de 512
 
 # Changez l'adapter en NAT
 au lieu de Bridge
+
+# assure toi que la machine virtuelle
+soit activée
