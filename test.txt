@@ -1,3 +1,0 @@
-1) télécharger ```01-Local1.ova```
-2) mettez ceci  ```sha1sum 01-Local1.ova``` et regardez si le résultat est ```f3422f3364fd38e8183740f8f57fa951d3f6e0bf```
-3) 
