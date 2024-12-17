@@ -29,3 +29,16 @@ nmap -sn 192.168.1.0/24
 
 # sélectionnez l'adresse de la VM et mettez ceci
 nmap -A ```adresse```
+
+# se connecter
+se connecter et examiner les fichiers trouvés
+
+# mettre ceci
+ftp 192.168.1.26
+login: anonymous
+pwd: Entrée (le bouton)
+
+# gobuster dir -u http://192.168.1.26/ -w /usr/share/wordlists/dirb/common.txt 
+
+# curl http://192.168.1.26/files/
+
