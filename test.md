@@ -17,7 +17,7 @@
 
 # double clic sur ```01-Local1.ova```
 
-# donnez 4096MB comme RAM
+# donnez 4096MB comme RAM (pour renforcer la machine virtuelle)
 au lieu de de 512
 
 # Changez l'adapter en NAT
