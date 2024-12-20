@@ -4,7 +4,7 @@
 ```01-Local1.ova```
 
 # mettez ceci 
-```sha1sum 01-Local1.ova```
+```sha1sum 01-Local1.ova``` pour vérifier le hash
 
 # et regardez si le résultat est
 ```f3422f3364fd38e8183740f8f57fa951d3f6e0bf```
