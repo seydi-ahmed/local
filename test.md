@@ -75,4 +75,4 @@ not yet
 -----------------------------------------------------------------------------------------------------
 
 # link for kali
-https://www.youtube.com/watch?v=AnwgxRtWXLI&list=PLhfrWIlLOoKMe1Ue0IdeULQvEgCgQ3a1B
+https://www.youtube.com/watch?v=B7wCf0JiOcM&list=PLZEN0mW2CQl38fx0wtv53VEmn5CKJIrLA
