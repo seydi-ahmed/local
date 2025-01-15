@@ -68,6 +68,10 @@ shrek
 # password
 not yet
 
+# developer
+- Prénom NOM: Mouhamed DIOUF
+- email: seydiahmedelcheikh@gmail.com
+
 -----------------------------------------------------------------------------------------------------
 
 # link for kali
