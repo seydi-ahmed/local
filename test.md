@@ -72,7 +72,8 @@ not yet
 - Prénom NOM: Mouhamed DIOUF
 - email: seydiahmedelcheikh@gmail.com
 
------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------
 
 # link for kali
-https://www.youtube.com/watch?v=B7wCf0JiOcM&list=PLZEN0mW2CQl38fx0wtv53VEmn5CKJIrLA
+- https://www.youtube.com/watch?v=trPm2DB8678
+- https://www.youtube.com/watch?v=B7wCf0JiOcM&list=PLZEN0mW2CQl38fx0wtv53VEmn5CKJIrLA
