@@ -67,3 +67,8 @@ shrek
 
 # password
 not yet
+
+-----------------------------------------------------------------------------------------------------
+
+# link for kali
+https://www.youtube.com/watch?v=AnwgxRtWXLI&list=PLhfrWIlLOoKMe1Ue0IdeULQvEgCgQ3a1B
