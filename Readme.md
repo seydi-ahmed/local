@@ -174,8 +174,8 @@ echo '⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀
 | $$ \ $$$  | $$    
 |  $$$$$$/ /$$$$$$  
  \______/ |______/                                                                           
-                                                                           
-                                                                           
+
+
  /$$                                     /$$   /$$ /$$     /$$             
 | $$                                    | $$  / $$/ $$   /$$$$             
 | $$        /$$$$$$   /$$$$$$$  /$$$$$$ | $$ /$$$$$$$$$$|_  $$             
@@ -184,12 +184,16 @@ echo '⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀
 | $$      | $$  | $$| $$       /$$__  $$| $$|_  $$  $$_/  | $$             
 | $$$$$$$$|  $$$$$$/|  $$$$$$$|  $$$$$$$| $$  | $$| $$   /$$$$$$           
 |________/ \______/  \_______/ \_______/|__/  |__/|__/  |______/           
-                                                                           
-                                                                           
-                                                                                                                                                     
+
+
+
 Congratulations, You have successfully completed the challenge!
 Flag: 01Talent@nokOpA3eToFrU8r5sW1dipe2aky
 ```
 
 ## Flag:
 01Talent@nokOpA3eToFrU8r5sW1dipe2aky
+
+## Développeur
+- Prénom NOM: Mouhamed DIOUF
+- email: seydiahmedelcheikh@gmail.com
