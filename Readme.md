@@ -213,3 +213,8 @@ Flag: 01Talent@nokOpA3eToFrU8r5sW1dipe2aky
 ## Développeur
 - Prénom NOM: Mouhamed DIOUF
 - email: seydiahmedelcheikh@gmail.com
+
+## 3
+- ftp
+- exécuter sudo sans mot de passe
+- ssh: on doit supprimer le user "root"
